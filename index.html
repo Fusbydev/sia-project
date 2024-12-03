@@ -43,49 +43,68 @@
     
         <div class="container">
             <form action="" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
-    <div class="form-group mb-3">
-        <label for="name" class="form-label">Name</label>
-        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" required>
-        <div class="invalid-feedback">Please enter a name.</div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" required>
+                <div class="invalid-feedback">Please enter a name.</div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+        </div>
     </div>
 
-    <div class="form-group mb-3">
-        <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
-        <div class="invalid-feedback">Please enter a valid email address.</div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="age" class="form-label">Age</label>
+                <input type="number" class="form-control" id="age" name="age" placeholder="Enter age" required>
+                <div class="invalid-feedback">Please enter a valid age.</div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="appointment_type" class="form-label">Appointment Type</label>
+                <input type="text" class="form-control" id="appointment_type" name="appointment_type" placeholder="Appointment Type" required>
+                <div class="invalid-feedback">Please enter the appointment type.</div>
+            </div>
+        </div>
     </div>
 
-    <div class="form-group mb-3">
-        <label for="age" class="form-label">Age</label>
-        <input type="number" class="form-control" id="age" name="age" placeholder="Enter age" required>
-        <div class="invalid-feedback">Please enter a valid age.</div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="date" name="date" required>
+                <div class="invalid-feedback">Please select a date.</div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="start_time" class="form-label">Starting Time</label>
+                <input type="time" class="form-control" id="start_time" name="start_time" required>
+                <div class="invalid-feedback">Please select a start time.</div>
+            </div>
+        </div>
     </div>
 
-    <div class="form-group mb-3">
-        <label for="appointment_type" class="form-label">Appointment Type</label>
-        <input type="text" class="form-control" id="appointment_type" name="appointment_type" placeholder="Appointment Type" required>
-        <div class="invalid-feedback">Please enter the appointment type.</div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="end_time" class="form-label">End Time</label>
+                <input type="time" class="form-control" id="end_time" name="end_time" required>
+                <div class="invalid-feedback">Please select an end time.</div>
+            </div>
+        </div>
     </div>
 
-    <div class="form-group mb-3">
-        <label for="date" class="form-label">Date</label>
-        <input type="date" class="form-control" id="date" name="date" required>
-        <div class="invalid-feedback">Please select a date.</div>
-    </div>
-
-    <div class="form-group mb-3">
-        <label for="start_time" class="form-label">Starting Time</label>
-        <input type="time" class="form-control" id="start_time" name="start_time" required>
-        <div class="invalid-feedback">Please select a start time.</div>
-    </div>
-
-    <div class="form-group mb-3">
-        <label for="end_time" class="form-label">End Time</label>
-        <input type="time" class="form-control" id="end_time" name="end_time" required>
-        <div class="invalid-feedback">Please select an end time.</div>
-    </div>
-
-    <div class="form-group row mb-4">
+    <div class="row mb-4">
         <div class="col-6">
             <a href="index.html" class="btn btn-secondary w-100">Cancel</a>
         </div>
@@ -94,6 +113,7 @@
         </div>
     </div>
 </form>
+
 
         </div>
     </main>
